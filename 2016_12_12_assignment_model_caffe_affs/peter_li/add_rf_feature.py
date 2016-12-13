@@ -35,7 +35,7 @@ def probToEnergy(prob):
 
     return math.log(1.0-prob) - math.log(prob);
 
-def add_rf_feature(rf_filename, project_filename, higher_node_bias, higher_edge_bias):
+def add_rf_feature(rf_filename, project_filename, higher_node_bias = 0, higher_edge_bias = 0):
 
     crag = Crag()
     nodeFeatures = NodeFeatures(crag)
