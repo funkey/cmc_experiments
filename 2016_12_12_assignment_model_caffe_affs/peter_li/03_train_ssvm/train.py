@@ -1,6 +1,5 @@
 import os
 from subprocess import call, Popen, PIPE
-from train_random_forest import train_ssvm
 import sys
 sys.path.append('..')
 from add_rf_feature import add_rf_feature
